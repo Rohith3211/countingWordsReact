@@ -34,6 +34,20 @@ h1 {
   font-weight: 500;
 }
 
+@media (max-width: 540px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
 .display {
   background-color: white;
   color: #1d976c;
