@@ -1,0 +1,72 @@
+/* Write your code here. */
+
+.container {
+  margin: 0px;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.card {
+  height: 300px;
+}
+h1 {
+  font-size: 34px;
+  font-family: 'Roboto';
+}
+.img {
+  height: 290px;
+}
+.label {
+  font-size: 10px;
+}
+.input {
+  width: 240px;
+  height: 25px;
+  background-color: transparent;
+  border-color: white;
+  border-width: 1px;
+  outline: none;
+  color: white;
+  font-weight: 500;
+}
+
+.display {
+  background-color: white;
+  color: #1d976c;
+  font-weight: bolder;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 937px) {
+  .img {
+    height: 380px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .img {
+    height: 480px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .input {
+    width: 300px;
+  }
+  .display {
+    color: #1d976c;
+    font-weight: bolder;
+    height: 48px;
+    width: 180px;
+  }
+}
